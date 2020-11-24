@@ -1,0 +1,14 @@
+class Dictionary():
+    def __init__(self):
+        # Your code
+        self.liste = {}
+        
+    def newentry(self, word, definition):
+        self.liste[word] = definition
+        
+    def look(self, key):
+        if key in self.liste.keys():
+            return(self.liste[key])
+        else:
+            return("Can't find entry for "+ key)
+        

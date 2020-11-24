@@ -1,0 +1,19 @@
+class User(object):
+    def __init__(self, name, balance, checking_account):
+        self.name = name
+        self.balance = balance
+        self.checking_account = checking_account
+    
+    def withdraw(self, money):
+        self.balance = self.balance - money
+        return(self.name +" has " + str(self.balance)+".")
+            
+    def check(self, otherUser, money):
+        res1 = self.add_cash(money)
+        res2 = otherUser.withdraw(money)
+        return(self.name+" has "+ str(self.balance)+" and "+ res2)
+    
+    def add_cash(self,money):
+        self.balance = self.balance + money
+        return(self.name+" has " + str(self.balance)+".")
+    
