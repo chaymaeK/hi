@@ -9,3 +9,4 @@ Lorsque je vais valider une feature, je vais la merger dans development qui sera
 
 #jour 3 
 #voir "doc typing , def __repr__
+API (developer.mozilla.org)
