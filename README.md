@@ -6,3 +6,6 @@ J'ai une branche production/master qui est celle hébergée sur le serveur. Cell
 J'ai une branche développement qui est le miroir de celle-ci mais avec les infos de config pour pouvoir héberger et tester le site en local sur mon ordi
 Enfin j'ai des sous branches "feature" pour par exemple, l'ajout d'un moyen de payement sur le site.
 Lorsque je vais valider une feature, je vais la merger dans development qui sera pushé sur le repo distant. Puis je peux simplement merger development dans master sur le repo distant sans jamais y toucher sur mon ordi puisque cette branche "ne m'intéresse pas" (en local tout du moins) (edited) 
+
+#jour 3 
+#voir "doc typing , def __repr__
